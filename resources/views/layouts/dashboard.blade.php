@@ -41,7 +41,7 @@
         <ul class="mt-8 space-y-2 tracking-wide">
             <li>
                 <a
-                    href="{{ asset('/dashboard') }}"
+                    href="{{ asset('/pages') }}"
                     aria-label="dashboard"
                     class="relative flex items-center space-x-4 rounded-xl bg-gradient-to-r from-sky-600 to-cyan-400 px-4 py-3 text-white"
                 >
@@ -64,8 +64,7 @@
             </li>
             <li>
                 <a
-                    href="{{ route('pages') }}"
-
+                    href=""
                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                 >
                     <svg
@@ -90,7 +89,7 @@
             </li>
             <li>
                 <a
-                    href="{{ route('products') }}"
+                    href="#"
                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                 >
                     <svg
@@ -115,7 +114,7 @@
             </li>
             <li>
                 <a
-                    href="user"
+                    href="#"
                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                 >
                     <svg
@@ -138,7 +137,7 @@
             </li>
             <li>
                 <a
-                    href=""
+                    href="#"
                     class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
                 >
                     <svg
