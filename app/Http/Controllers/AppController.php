@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Page;
+
 class AppController extends Controller
 {
     public  function  index()
@@ -18,7 +20,11 @@ class AppController extends Controller
 
     public function pages()
     {
-        return  view('pages');
+        $data = [];
+        $data['header'] = 'страницы';
+        $pages = Page::all();
+
+        return  view('pages',compact('pages', 'data'));
     }
 
     public function products()
